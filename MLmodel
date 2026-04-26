@@ -1,0 +1,45 @@
+artifact_path: outputs/mlflow-model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.19
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: pickle
+    sklearn_version: 1.5.1
+metadata:
+  azureml.base_image: mcr.microsoft.com/azureml/curated/ai-ml-automl:41
+  azureml.engine: automl
+mlflow_version: 2.15.1
+model_size_bytes: 693347
+model_uuid: 5722ce2cdac14ceab6e454f920533bdf
+run_id: lime_double_74hjkt6306_9
+signature:
+  inputs: '[{"type": "long", "name": "symboling", "required": true}, {"type": "string",
+    "name": "normalized-losses", "required": true}, {"type": "string", "name": "make",
+    "required": true}, {"type": "string", "name": "fuel-type", "required": true},
+    {"type": "string", "name": "aspiration", "required": true}, {"type": "string",
+    "name": "num-of-doors", "required": true}, {"type": "string", "name": "body-style",
+    "required": true}, {"type": "string", "name": "drive-wheels", "required": true},
+    {"type": "string", "name": "engine-location", "required": true}, {"type": "double",
+    "name": "wheel-base", "required": true}, {"type": "double", "name": "length",
+    "required": true}, {"type": "double", "name": "width", "required": true}, {"type":
+    "double", "name": "height", "required": true}, {"type": "long", "name": "curb-weight",
+    "required": true}, {"type": "string", "name": "engine-type", "required": true},
+    {"type": "string", "name": "num-of-cylinders", "required": true}, {"type": "long",
+    "name": "engine-size", "required": true}, {"type": "string", "name": "fuel-system",
+    "required": true}, {"type": "string", "name": "bore", "required": true}, {"type":
+    "string", "name": "stroke", "required": true}, {"type": "double", "name": "compression-ratio",
+    "required": true}, {"type": "string", "name": "horsepower", "required": true},
+    {"type": "string", "name": "peak-rpm", "required": true}, {"type": "long", "name":
+    "city-mpg", "required": true}, {"type": "long", "name": "highway-mpg", "required":
+    true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2026-04-26 22:30:49.870100'
