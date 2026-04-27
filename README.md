@@ -24,7 +24,7 @@ The **VotingEnsemble** algorithm outperformed other candidates:
 * **Normalized RMSE:** `0.0495`.
 
 ### 📈 Results Visualization
-![Model Evaluation](Visuals/results_chart.png)
+![Model Evaluation](Visuals/Results.png)
 *The plot illustrates the strong alignment between predicted values and actual market prices.*
 
 ## 🛠️ Technology Stack
