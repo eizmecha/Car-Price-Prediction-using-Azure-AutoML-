@@ -2,7 +2,7 @@
 
 ## 📌 Executive Summary
 This project demonstrates an industrial-grade Machine Learning workflow to predict automobile prices. Leveraging **Microsoft Azure Machine Learning (AutoML)**, I developed a high-precision regression model that analyzes mechanical specifications (Engine size, Horsepower, Curb weight) to estimate market value.
-https://drive.google.com/file/d/13JVK61jOSEZoXEVRihKSbhuI0Sad1ULS/view?usp=drive_link
+
 ## 🏗️ System Architecture & Workflow
 The project follows the standard CRISP-DM methodology implemented on the Cloud:
 1. **Data Ingestion:** Registering raw datasets in Azure ML Data Assets.
